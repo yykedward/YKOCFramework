@@ -7,6 +7,11 @@
 
 #import <Foundation/Foundation.h>
 
+//埋点
+#import "YKPathLog.h"
+
+//在线参数
+#import "YKOnlineConfig.h"
 
 
 
