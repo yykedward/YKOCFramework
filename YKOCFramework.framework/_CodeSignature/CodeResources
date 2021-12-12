@@ -8,6 +8,14 @@
 		<data>
 		SIhxns1Gbl91eAokvTsgU9NRZms=
 		</data>
+		<key>Headers/YKOnlineConfig.h</key>
+		<data>
+		/iOKNJKHFNlKQ3gFF5OK8aJRcrM=
+		</data>
+		<key>Headers/YKPathLog.h</key>
+		<data>
+		EYShdvQR+Hr48Z9e3kh1wJz7iwk=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		4Pm3Ufjll2fmC8whs7uZbW8/NY8=
@@ -28,6 +36,20 @@
 			<key>hash2</key>
 			<data>
 			encCuzDtyBDbLhddjhZJlSz7rM+aKKClgCd20ICctPc=
+			</data>
+		</dict>
+		<key>Headers/YKOnlineConfig.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fWQeK7AvHlX1bjH3hGXyRByYLv7wFOlOP/kuzBtSljM=
+			</data>
+		</dict>
+		<key>Headers/YKPathLog.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			42TS9Ord85ytQnYDSjAK+V9rhkPid1vGdx0Lbw30CnQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
