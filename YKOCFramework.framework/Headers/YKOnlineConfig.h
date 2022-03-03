@@ -33,7 +33,7 @@ FOUNDATION_EXTERN NSString *const YKOC_KEY_APPSTORE_VERSION; ///< 在线参数�
  @param cacheVaildTime 缓存有效时间（缓存有效期间不再请求接口数据，默认值：YKOC_DefaultCacheVaildTime）
  @param complete 请求完成回调
  */
-+ (void)updateOnlineConfigWithAppkey:(NSString *)appkey cacheVaildTime:(NSTimeInterval)cacheVaildTime complete:(void (^)(BOOL success))complete;
++ (void)updateOnlineConfigWithAppkey:(NSString *)appkey cacheVaildTime:(NSTimeInterval)cacheVaildTime complete:(void (^)(BOOL success, NSDictionary *result))complete;
 
 /** 返回全部数据 */
 + (NSDictionary *)getConfigParams;

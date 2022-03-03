@@ -27,7 +27,7 @@ FOUNDATION_EXTERN NSString * const kYKPathDigDEBUGNotification;
 
 /// 注册埋点
 /// @param clientId 注册Id
-+ (void)initId:(NSString *)clientId;
++ (void)registWithClientId:(NSString *)clientId;
 
 /// 设置模式默认(RELEASE)
 /// @param mode 模式
