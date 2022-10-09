@@ -7,12 +7,12 @@ Pod::Spec.new do |spec|
                     所有内容
                        DESC
                        
-  spec.homepage     = "http://9k6h9ngp2g.shhttp.cn/ykcocoapods/ykocframework"
+  spec.homepage     = "https://23w1070h86.oicp.vip/ykcocoapods/ykocframework"
   
   #spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   
   spec.author       = { "edward" => "534272374@qq.com" }
-  spec.source       = { :git => "http://9k6h9ngp2g.shhttp.cn/ykcocoapods/ykocframework.git",:tag => spec.version.to_s }
+  spec.source       = { :git => "https://23w1070h86.oicp.vip/ykcocoapods/ykocframework.git",:tag => spec.version.to_s }
   spec.ios.deployment_target = "11.0"
   spec.framework  = "Foundation","UIKit"
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
