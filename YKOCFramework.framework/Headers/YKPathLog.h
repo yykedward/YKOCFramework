@@ -20,8 +20,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface YKPathLog : NSObject
 
-/** 发送成功DEBUG调试消息*/
-FOUNDATION_EXTERN NSString * const kYKPathDigDEBUGNotification;
 
 - (instancetype)init NS_UNAVAILABLE;
 
@@ -32,6 +30,10 @@ FOUNDATION_EXTERN NSString * const kYKPathDigDEBUGNotification;
 /// 设置模式默认(RELEASE)
 /// @param mode 模式
 + (void)setMode:(YKPathLogMode)mode;
+
+/// 设置埋点成功的回调
+/// @param callBack 回调
++ (void)addPointSuccessCallBack:(void(^)(NSString *point, NSString *name))callBack;
 
 /// 添加埋点
 /// @param point 埋点记录标签
