@@ -7,17 +7,16 @@ Pod::Spec.new do |spec|
                     所有内容
                        DESC
                        
-  spec.homepage     = "https://23w1070h86.oicp.vip/ykcocoapods/ykocframework"
+  spec.homepage     = "https://github.com/541278903/YKOCFramework"
   
   #spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   
   spec.author       = { "edward" => "534272374@qq.com" }
-  spec.source       = { :git => "https://23w1070h86.oicp.vip/ykcocoapods/ykocframework.git",:tag => spec.version.to_s }
+  spec.source       = { :git => "https://github.com/541278903/YKOCFramework.git",:tag => spec.version.to_s }
   spec.ios.deployment_target = "11.0"
   spec.framework  = "Foundation","UIKit"
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   
-  # 是否是静态库 这个地方很重要 假如不写这句打出来的包 就是动态库 不能使用
   spec.static_framework  =  true
   spec.vendored_frameworks = 'YKOCFramework.framework'
 
