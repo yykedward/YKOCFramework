@@ -6,27 +6,23 @@
 	<dict>
 		<key>Headers/YKOCFramework.h</key>
 		<data>
-		SIhxns1Gbl91eAokvTsgU9NRZms=
+		jiXLjI+fHUxsT+bwhEQIXiL2H4o=
 		</data>
 		<key>Headers/YKOnlineConfig.h</key>
 		<data>
-		R8Ax/KH1oaX7rzQnxEQlOaa41cY=
+		4yJXhkxE3B9nKwTomzqo9YQuy08=
 		</data>
 		<key>Headers/YKPathLog.h</key>
 		<data>
-		G2TqdYp4ADoLtLlom+0SNhk9uWY=
+		fom5hVnqXyrziotRMziGFAQHm7o=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5FEJHmSdDrz91stLsPyXPLhVzQI=
+		+9YfBVrbTYy8SOY8KRibzHoiTmE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		EPOranozdpmGvLZ+xRU4N2Xzkhg=
-		</data>
-		<key>YKOCFramework.podspec</key>
-		<data>
-		XsjjDBYBrUtswHck2ZTGStlbe/I=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -35,33 +31,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SIhxns1Gbl91eAokvTsgU9NRZms=
+			jiXLjI+fHUxsT+bwhEQIXiL2H4o=
 			</data>
 			<key>hash2</key>
 			<data>
-			encCuzDtyBDbLhddjhZJlSz7rM+aKKClgCd20ICctPc=
+			ZkTOUXMpDtKwIvxlQxAIG1HjlbA6q6mlyhD+pNgn0Dg=
 			</data>
 		</dict>
 		<key>Headers/YKOnlineConfig.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R8Ax/KH1oaX7rzQnxEQlOaa41cY=
+			4yJXhkxE3B9nKwTomzqo9YQuy08=
 			</data>
 			<key>hash2</key>
 			<data>
-			3rZutQ0aG+jqmFi1KbSchB4xKKUoPdzBaBRmsnH/zIQ=
+			tpIkg9KLP5e5t73knOTzNpPpwsUGtyx9V7soy2a5G38=
 			</data>
 		</dict>
 		<key>Headers/YKPathLog.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			G2TqdYp4ADoLtLlom+0SNhk9uWY=
+			fom5hVnqXyrziotRMziGFAQHm7o=
 			</data>
 			<key>hash2</key>
 			<data>
-			aqe6hPWjvbl1KUQU8G71+W9cDml3slLZMdw+OauABpM=
+			vfy0Xsa6nOh2hqTUT9i5dFngfGZzou9ikxOoKLAYKjo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -73,17 +69,6 @@
 			<key>hash2</key>
 			<data>
 			PKKrjrKhK11ZYXaCjZznZNFRKInL7OTMmkJayFcNUxs=
-			</data>
-		</dict>
-		<key>YKOCFramework.podspec</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			XsjjDBYBrUtswHck2ZTGStlbe/I=
-			</data>
-			<key>hash2</key>
-			<data>
-			USinO4t6SI4ZpbyvpWl/gLh6QWuBeZC313SG2BNfp5Q=
 			</data>
 		</dict>
 	</dict>

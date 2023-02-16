@@ -5,7 +5,6 @@
 //  Created by edward on 2021/3/23.
 //  Copyright © 2021 com.Edward. All rights reserved.
 //
-// version 1.0.0
 
 #import <Foundation/Foundation.h>
 
@@ -25,10 +24,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 注册埋点
 /// @param clientId 注册Id
-+ (void)registWithClientId:(NSString *)clientId;
++ (void)registWithClientId:(nonnull NSString *)clientId;
 
 /// 设置模式默认(RELEASE)
 /// @param mode 模式
+/// @warning 请优先设置模式再进行注册和埋点动作
 + (void)setMode:(YKPathLogMode)mode;
 
 /// 设置埋点成功的回调
@@ -39,7 +39,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param point 埋点记录标签
 /// @param name 记录名称
 /// @param params 额外参数
-+ (void)addPoint:(NSString *)point name:(NSString *)name params:(NSDictionary * _Nullable)params;
++ (void)addPoint:(nonnull NSString *)point name:(nonnull NSString *)name params:(nullable NSDictionary *)params;
 
 /// 开始记录埋点
 /// @param key 记录点标签
@@ -49,7 +49,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param key 记录点标签
 /// @param name 记录名称
 /// @param params 额外参数
-+ (void)endTimeDig:(NSString *)key name:(NSString *)name params:(NSDictionary * _Nullable)params;
++ (void)endTimeDig:(nonnull NSString *)key name:(nonnull NSString *)name params:(nullable NSDictionary *)params;
 
 
 @end

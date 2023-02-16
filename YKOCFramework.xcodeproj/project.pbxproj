@@ -23,14 +23,12 @@
 /* Begin PBXBuildFile section */
 		2BEE8C96276517020076EFC2 /* YKOCFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2BEE8C95276517020076EFC2 /* YKOCFramework.docc */; };
 		2BEE8C97276517020076EFC2 /* YKOCFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BEE8C94276517020076EFC2 /* YKOCFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BEE8C9E2765178E0076EFC2 /* YKOCFramework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2BEE8C9D2765178E0076EFC2 /* YKOCFramework.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2BEE8C91276517020076EFC2 /* YKOCFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YKOCFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BEE8C94276517020076EFC2 /* YKOCFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKOCFramework.h; sourceTree = "<group>"; };
 		2BEE8C95276517020076EFC2 /* YKOCFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = YKOCFramework.docc; sourceTree = "<group>"; };
-		2BEE8C9D2765178E0076EFC2 /* YKOCFramework.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YKOCFramework.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +45,6 @@
 		2BEE8C87276517020076EFC2 = {
 			isa = PBXGroup;
 			children = (
-				2BEE8C9D2765178E0076EFC2 /* YKOCFramework.podspec */,
 				2BEE8C93276517020076EFC2 /* YKOCFramework */,
 				2BEE8C92276517020076EFC2 /* Products */,
 			);
@@ -143,7 +140,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BEE8C9E2765178E0076EFC2 /* YKOCFramework.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
