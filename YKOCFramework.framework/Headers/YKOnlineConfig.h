@@ -13,6 +13,10 @@ FOUNDATION_EXTERN const NSTimeInterval YKOC_DefaultCacheVaildTime; ///< 缓存�
 
 @interface YKOnlineConfig : NSObject
 
+
+- (instancetype _Nonnull )init NS_UNAVAILABLE __SWIFT_UNAVAILABLE;
++ (instancetype _Nonnull )new NS_UNAVAILABLE __SWIFT_UNAVAILABLE;
+
 #pragma mark - 在线参数
 
 /**

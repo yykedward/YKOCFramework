@@ -20,7 +20,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface YKPathLog : NSObject
 
 
-- (instancetype)init NS_UNAVAILABLE;
+- (instancetype)init NS_UNAVAILABLE __SWIFT_UNAVAILABLE;
++ (instancetype)new NS_UNAVAILABLE __SWIFT_UNAVAILABLE;
 
 /// 注册埋点
 /// @param clientId 注册Id
