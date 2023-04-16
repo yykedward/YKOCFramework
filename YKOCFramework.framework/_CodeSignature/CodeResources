@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/YKOCFramework.h</key>
 		<data>
-		HhED8xcqdknz8RxAVtTBizRaBSk=
+		MBI1IlWedIn6qM1zKGUwAzcNeiM=
 		</data>
 		<key>Headers/YKOnlineConfig.h</key>
 		<data>
@@ -16,9 +16,17 @@
 		<data>
 		HjQ5VkgGKFb72mWn7iABbavza9U=
 		</data>
+		<key>Headers/YKUserManager.h</key>
+		<data>
+		hzw/jdv1AB9quYPMvl4avwXQpHk=
+		</data>
+		<key>Headers/YKUserModel.h</key>
+		<data>
+		3XN+hSoUzTe1ehjYjCn7PzlpOv0=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		Ru+7gZknQVpAep8t7s+13xcopXs=
+		Ud+m+BfiAOxui/5YX4/N5FxZ9v0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -31,11 +39,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HhED8xcqdknz8RxAVtTBizRaBSk=
+			MBI1IlWedIn6qM1zKGUwAzcNeiM=
 			</data>
 			<key>hash2</key>
 			<data>
-			uYoimKcVGKQEQRiouDEBDeSEVHHdrXanTR5Mq7yFjBc=
+			cX9vtOuOzS9vCNLcgRzrCZbzD4BUTGndiA9ny3Fg0UM=
 			</data>
 		</dict>
 		<key>Headers/YKOnlineConfig.h</key>
@@ -58,6 +66,28 @@
 			<key>hash2</key>
 			<data>
 			tqaCYdkfksK+pMUGG5JShQxgGeB5ATs97Oz3xODe10Q=
+			</data>
+		</dict>
+		<key>Headers/YKUserManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hzw/jdv1AB9quYPMvl4avwXQpHk=
+			</data>
+			<key>hash2</key>
+			<data>
+			H5SWtWMHedRRllwI832B0+tPpWbcvnQtnTdh6T7atbw=
+			</data>
+		</dict>
+		<key>Headers/YKUserModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3XN+hSoUzTe1ehjYjCn7PzlpOv0=
+			</data>
+			<key>hash2</key>
+			<data>
+			V4kSDHPtAr+DGpQX2OnBqkRFDZulciaADQnpJi9sMYM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
