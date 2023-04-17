@@ -10,19 +10,22 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+#define updateTokenNotificationKeyName @"YKFRAMEWORK_USERMANAGER_TOKEN_UPDATE"
+#define updateUserNotificationKeyName @"YKFRAMEWORK_USERMANAGER_USER_UPDATE"
+
 @interface YKUserManager : NSObject
 
 + (YKUserModel *)currentModel;
 
 + (NSString *)currentToken;
 
-+ (void)loginWith:(NSString *)phone password:(NSString *)password finishCallBack:(void(^)(NSError *error))finishCallBack;
++ (void)loginWith:(NSString *)phone password:(NSString *)password finishCallBack:(void(^_Nullable)(NSError *error))finishCallBack;
 
-+ (void)registWith:(NSString *)phone password:(NSString *)password rpsd:(NSString *)rpsd finishCallBack:(void (^)(NSError * _Nullable error))finishCallBack;
++ (void)registWith:(NSString *)phone password:(NSString *)password rpsd:(NSString *)rpsd finishCallBack:(void (^_Nullable)(NSError * _Nullable error))finishCallBack;
 
-+ (void)registGuestWithFinishCallBack:(void(^)(NSError * _Nullable error))finishCallBack;
++ (void)registGuestWithFinishCallBack:(void(^_Nullable)(NSError * _Nullable error))finishCallBack;
 
-+ (void)reloadInfoWithFinishCallBack:(void(^)(NSError *error))finishCallBack;
++ (void)reloadInfoWithFinishCallBack:(void(^_Nullable)(NSError *error))finishCallBack;
 
 + (void)logout;
 
