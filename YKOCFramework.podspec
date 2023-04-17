@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "edward" => "534272374@qq.com" }
   spec.source       = { :git => "https://github.com/541278903/YKOCFramework.git",:tag => spec.version.to_s }
   spec.ios.deployment_target = "11.0"
-  spec.framework  = "Foundation","UIKit","CommonCrypto","Security"
+  spec.framework  = "Foundation","UIKit","Security"
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   
   spec.static_framework  =  true
