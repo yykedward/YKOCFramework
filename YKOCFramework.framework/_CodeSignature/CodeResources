@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/YKOCFramework.h</key>
 		<data>
-		Kt/6lgxsZ4RibkD0tJNgjXl8cTA=
+		u0fwzfhBl4uIA34K3AgiCV6Kucw=
 		</data>
 		<key>Headers/YKOnlineConfig.h</key>
 		<data>
@@ -18,15 +18,15 @@
 		</data>
 		<key>Headers/YKUserManager.h</key>
 		<data>
-		NR/tR9RHmfBam9wlPbjpsyHTWZU=
+		MPX26h1hYuecd7FYg8/Bxa3HUhU=
 		</data>
 		<key>Headers/YKUserModel.h</key>
 		<data>
-		3XN+hSoUzTe1ehjYjCn7PzlpOv0=
+		xXET03w1UBNSgUF8VY6SUhcjn4k=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ru+7gZknQVpAep8t7s+13xcopXs=
+		Ud+m+BfiAOxui/5YX4/N5FxZ9v0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -39,11 +39,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Kt/6lgxsZ4RibkD0tJNgjXl8cTA=
+			u0fwzfhBl4uIA34K3AgiCV6Kucw=
 			</data>
 			<key>hash2</key>
 			<data>
-			RMFUuPJDg4DBKFxtFP4mqe1EzgG+nr7jWg2/tym7etE=
+			+FHkmHC69U50g4Wmk2l2ObxhZe/H/8K9OH2vVv/G1O8=
 			</data>
 		</dict>
 		<key>Headers/YKOnlineConfig.h</key>
@@ -72,22 +72,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NR/tR9RHmfBam9wlPbjpsyHTWZU=
+			MPX26h1hYuecd7FYg8/Bxa3HUhU=
 			</data>
 			<key>hash2</key>
 			<data>
-			XT5UZVYMMs8SLKJoSXsW+zRdGFI+QNZsNoEMbfdosB8=
+			X4Pr6V8W8PJqYZ1/bUrjkUBLEyELDchtxxbP3AcmYCA=
 			</data>
 		</dict>
 		<key>Headers/YKUserModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3XN+hSoUzTe1ehjYjCn7PzlpOv0=
+			xXET03w1UBNSgUF8VY6SUhcjn4k=
 			</data>
 			<key>hash2</key>
 			<data>
-			V4kSDHPtAr+DGpQX2OnBqkRFDZulciaADQnpJi9sMYM=
+			Z/de9p1SLpj1TgcLHc1N5LhJLfFApb6EIUj49x1Debk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

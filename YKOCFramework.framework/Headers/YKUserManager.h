@@ -1,6 +1,6 @@
 //
 //  YKUserManager.h
-//  YKOCFramework_main
+//  YKOCFramework
 //
 //  Created by edward on 2023/4/13.
 //
