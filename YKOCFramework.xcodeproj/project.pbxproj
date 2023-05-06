@@ -23,12 +23,20 @@
 /* Begin PBXBuildFile section */
 		2BEE8C96276517020076EFC2 /* YKOCFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2BEE8C95276517020076EFC2 /* YKOCFramework.docc */; };
 		2BEE8C97276517020076EFC2 /* YKOCFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BEE8C94276517020076EFC2 /* YKOCFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99512B6C2A06038F00B25175 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99512B6B2A06038F00B25175 /* CoreFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		99512B6E2A06039800B25175 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99512B6D2A06039800B25175 /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		99512B702A06039C00B25175 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99512B6F2A06039C00B25175 /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		99512B722A0603A600B25175 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99512B712A0603A600B25175 /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2BEE8C91276517020076EFC2 /* YKOCFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YKOCFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BEE8C94276517020076EFC2 /* YKOCFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKOCFramework.h; sourceTree = "<group>"; };
 		2BEE8C95276517020076EFC2 /* YKOCFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = YKOCFramework.docc; sourceTree = "<group>"; };
+		99512B6B2A06038F00B25175 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		99512B6D2A06039800B25175 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/iOSSupport/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		99512B6F2A06039C00B25175 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		99512B712A0603A600B25175 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99512B722A0603A600B25175 /* Foundation.framework in Frameworks */,
+				99512B702A06039C00B25175 /* Security.framework in Frameworks */,
+				99512B6E2A06039800B25175 /* UIKit.framework in Frameworks */,
+				99512B6C2A06038F00B25175 /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +59,7 @@
 			children = (
 				2BEE8C93276517020076EFC2 /* YKOCFramework */,
 				2BEE8C92276517020076EFC2 /* Products */,
+				99512B6A2A06038F00B25175 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +78,17 @@
 				2BEE8C95276517020076EFC2 /* YKOCFramework.docc */,
 			);
 			path = YKOCFramework;
+			sourceTree = "<group>";
+		};
+		99512B6A2A06038F00B25175 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99512B712A0603A600B25175 /* Foundation.framework */,
+				99512B6F2A06039C00B25175 /* Security.framework */,
+				99512B6D2A06039800B25175 /* UIKit.framework */,
+				99512B6B2A06038F00B25175 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
