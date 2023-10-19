@@ -6,11 +6,15 @@
 	<dict>
 		<key>Headers/YKOCFramework.h</key>
 		<data>
-		7QOv0RJcsm0GIyzGjqah2u1IGCk=
+		hhygdROuJNCnZSOTaID5Jbev/tE=
 		</data>
 		<key>Headers/YKOnlineConfig.h</key>
 		<data>
 		Ur6DBYlvrI1PUwqelxxtvbIIHUY=
+		</data>
+		<key>Headers/YKOpenAI.h</key>
+		<data>
+		RAecv+ReSg+Ea/rVVpz7XzbzGYQ=
 		</data>
 		<key>Headers/YKPathLog.h</key>
 		<data>
@@ -18,15 +22,15 @@
 		</data>
 		<key>Headers/YKUserManager.h</key>
 		<data>
-		MPX26h1hYuecd7FYg8/Bxa3HUhU=
+		v4aMLa2LaAMzu2WsO/tMEWCoqk4=
 		</data>
 		<key>Headers/YKUserModel.h</key>
 		<data>
-		xXET03w1UBNSgUF8VY6SUhcjn4k=
+		79ngoB4tQjbh4jmMvJfr+n7FskQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ru+7gZknQVpAep8t7s+13xcopXs=
+		io0iKRBmc0QDutGT5TuHBiuPR/Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -39,11 +43,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7QOv0RJcsm0GIyzGjqah2u1IGCk=
+			hhygdROuJNCnZSOTaID5Jbev/tE=
 			</data>
 			<key>hash2</key>
 			<data>
-			f8mOx6fAt939Ixml/WkqlIJyXfzNCE503qyzycdbvoA=
+			uxx3PvzMfz/izkbDrBP0n5pjOwXIDz8x//R20hmz2vQ=
 			</data>
 		</dict>
 		<key>Headers/YKOnlineConfig.h</key>
@@ -55,6 +59,17 @@
 			<key>hash2</key>
 			<data>
 			NKuYCVfXjFgmizJLpV7MbJ/dGz6Wu0jPNB1t6x3G5Uc=
+			</data>
+		</dict>
+		<key>Headers/YKOpenAI.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RAecv+ReSg+Ea/rVVpz7XzbzGYQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			Gpufe3a0zIKFm4HKLKn2OiPNNIWnDbOWQboEqlvJfJs=
 			</data>
 		</dict>
 		<key>Headers/YKPathLog.h</key>
@@ -72,22 +87,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MPX26h1hYuecd7FYg8/Bxa3HUhU=
+			v4aMLa2LaAMzu2WsO/tMEWCoqk4=
 			</data>
 			<key>hash2</key>
 			<data>
-			X4Pr6V8W8PJqYZ1/bUrjkUBLEyELDchtxxbP3AcmYCA=
+			16zJJWGSd4wW9jSJOd+2luFhQ3fzaBDqk4PVJUk49QQ=
 			</data>
 		</dict>
 		<key>Headers/YKUserModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xXET03w1UBNSgUF8VY6SUhcjn4k=
+			79ngoB4tQjbh4jmMvJfr+n7FskQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z/de9p1SLpj1TgcLHc1N5LhJLfFApb6EIUj49x1Debk=
+			+6tsPc2/llU+s9k4IO3sB82XvlfG+AdXnVqT4c4QHW4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

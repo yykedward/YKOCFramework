@@ -4,7 +4,7 @@
 //
 //  Created by edward on 2021/12/12.
 //
-// version 1.0.6
+// version 1.0.7
 
 #import <Foundation/Foundation.h>
 

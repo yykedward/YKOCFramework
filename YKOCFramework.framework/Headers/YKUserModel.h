@@ -20,14 +20,14 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign, readonly) NSInteger sex;
 ///
 @property (nonatomic, assign, readonly) NSInteger exp;
-///
-@property (nonatomic, assign, readonly) NSInteger status;
 
 //MARK: readwrite
 ///
 @property (nonatomic, copy, readwrite) NSString *nickname;
 ///
 @property (nonatomic, copy, readwrite) NSString *avatar;
+///
+@property (nonatomic, copy, readwrite) NSString *mobile;
 
 
 - (instancetype _Nonnull )init NS_UNAVAILABLE __SWIFT_UNAVAILABLE;

@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString *)currentToken;
 
-+ (void)loginWith:(NSString *)phone password:(NSString *)password finishCallBack:(void(^_Nullable)(NSError *error))finishCallBack;
++ (void)loginWith:(nonnull NSString *)phone password:(nonnull NSString *)password finishCallBack:(void(^_Nullable)(NSError *error))finishCallBack;
 
 + (void)registWith:(NSString *)phone password:(NSString *)password rpsd:(NSString *)rpsd finishCallBack:(void (^_Nullable)(NSError * _Nullable error))finishCallBack;
 
