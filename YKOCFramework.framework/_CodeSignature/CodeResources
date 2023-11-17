@@ -4,21 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/YKFrameworkTranslation.h</key>
+		<data>
+		ouHcDaXcfWbqKD79c0HMYB6Cu18=
+		</data>
 		<key>Headers/YKOCFramework.h</key>
 		<data>
-		hhygdROuJNCnZSOTaID5Jbev/tE=
+		qoNM2XKGgwoUq0VbFkAcUIhjV3k=
 		</data>
 		<key>Headers/YKOnlineConfig.h</key>
 		<data>
 		Ur6DBYlvrI1PUwqelxxtvbIIHUY=
-		</data>
-		<key>Headers/YKOpenAI.h</key>
-		<data>
-		RAecv+ReSg+Ea/rVVpz7XzbzGYQ=
-		</data>
-		<key>Headers/YKPathLog.h</key>
-		<data>
-		HjQ5VkgGKFb72mWn7iABbavza9U=
 		</data>
 		<key>Headers/YKUserManager.h</key>
 		<data>
@@ -30,24 +26,35 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		io0iKRBmc0QDutGT5TuHBiuPR/Y=
+		WhqmJpUDj45/SZ396ueDEtnW2VI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		EPOranozdpmGvLZ+xRU4N2Xzkhg=
+		RZ83IueN0zHpl6l8HhSDgs/0Imw=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/YKFrameworkTranslation.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ouHcDaXcfWbqKD79c0HMYB6Cu18=
+			</data>
+			<key>hash2</key>
+			<data>
+			vJNMuOWfk18++S6JKmGiyyRkBicjbV7KUgx04InyUaM=
+			</data>
+		</dict>
 		<key>Headers/YKOCFramework.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hhygdROuJNCnZSOTaID5Jbev/tE=
+			qoNM2XKGgwoUq0VbFkAcUIhjV3k=
 			</data>
 			<key>hash2</key>
 			<data>
-			uxx3PvzMfz/izkbDrBP0n5pjOwXIDz8x//R20hmz2vQ=
+			DK3vwzYgQdlXuj59DK7EeUSsGQ8p0LNnc4XPXqn7Idk=
 			</data>
 		</dict>
 		<key>Headers/YKOnlineConfig.h</key>
@@ -59,28 +66,6 @@
 			<key>hash2</key>
 			<data>
 			NKuYCVfXjFgmizJLpV7MbJ/dGz6Wu0jPNB1t6x3G5Uc=
-			</data>
-		</dict>
-		<key>Headers/YKOpenAI.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RAecv+ReSg+Ea/rVVpz7XzbzGYQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			Gpufe3a0zIKFm4HKLKn2OiPNNIWnDbOWQboEqlvJfJs=
-			</data>
-		</dict>
-		<key>Headers/YKPathLog.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HjQ5VkgGKFb72mWn7iABbavza9U=
-			</data>
-			<key>hash2</key>
-			<data>
-			tqaCYdkfksK+pMUGG5JShQxgGeB5ATs97Oz3xODe10Q=
 			</data>
 		</dict>
 		<key>Headers/YKUserManager.h</key>
@@ -109,11 +94,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EPOranozdpmGvLZ+xRU4N2Xzkhg=
+			RZ83IueN0zHpl6l8HhSDgs/0Imw=
 			</data>
 			<key>hash2</key>
 			<data>
-			PKKrjrKhK11ZYXaCjZznZNFRKInL7OTMmkJayFcNUxs=
+			yqzyZrZu1+EsHQIL9rQk1CVyC6EfCD1p0YuIMHa3VB0=
 			</data>
 		</dict>
 	</dict>
