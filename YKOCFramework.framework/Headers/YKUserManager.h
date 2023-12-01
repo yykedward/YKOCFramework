@@ -15,13 +15,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface YKUserManager : NSObject
 
-+ (YKUserModel *)currentModel;
++ (nullable YKUserModel *)currentModel;
 
-+ (NSString *)currentToken;
++ (nullable NSString *)currentToken;
 
-+ (void)loginWith:(nonnull NSString *)phone password:(nonnull NSString *)password finishCallBack:(void(^_Nullable)(NSError *error))finishCallBack;
++ (void)loginWith:(nonnull NSString *)phone password:(nonnull NSString *)password finishCallBack:(nullable void(^)(NSError *error))finishCallBack;
 
-+ (void)registWith:(NSString *)phone password:(NSString *)password rpsd:(NSString *)rpsd finishCallBack:(void (^_Nullable)(NSError * _Nullable error))finishCallBack;
++ (void)registWith:(NSString *)phone password:(NSString *)password finishCallBack:(nullable void (^)(NSError * _Nullable error))finishCallBack;
 
 + (void)registGuestWithFinishCallBack:(void(^_Nullable)(NSError * _Nullable error))finishCallBack;
 

@@ -9,13 +9,14 @@
 #import <Foundation/Foundation.h>
 
 typedef NS_ENUM(NSInteger, YKFrameworkTranslationType) {
-    YKFrameworkTranslationTypeEN       = 0,///英语
-    YKFrameworkTranslationTypeRU       = 1,///俄语
-    YKFrameworkTranslationTypeDE       = 2,///德语
-    YKFrameworkTranslationTypeTR       = 3,///土耳其语
-    YKFrameworkTranslationTypePT       = 4,///葡萄牙语
-    YKFrameworkTranslationTypeID       = 5,///印尼语
-    YKFrameworkTranslationTypeTH       = 6,///泰语
+    
+    YKFrameworkTranslationTypeEN       = 0,//英语
+    YKFrameworkTranslationTypeRU       = 1,//俄语
+    YKFrameworkTranslationTypeDE       = 2,//德语
+    YKFrameworkTranslationTypeTR       = 3,//土耳其语
+    YKFrameworkTranslationTypePT       = 4,//葡萄牙语
+    YKFrameworkTranslationTypeID       = 5,//印尼语
+    YKFrameworkTranslationTypeTH       = 6,//泰语
 };
 
 
@@ -23,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface YKFrameworkTranslation : NSObject
 
-+ (void)transplationWith:(nonnull NSString *)content type:(YKFrameworkTranslationType)type complete:(nullable void (^)(NSString *result))complete;
++ (void)transplationWith:(nonnull NSString *)content type:(YKFrameworkTranslationType)type complete:(nonnull void (^)(NSString *result))complete;
 
 @end
 

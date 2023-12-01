@@ -42,15 +42,4 @@ FOUNDATION_EXTERN const NSTimeInterval YKOC_DefaultCacheVaildTime; ///< 缓存�
 /** 返回对应数据 */
 + (nullable NSString *)getConfigParams:(nonnull NSString *)key;
 
-#pragma mark - 其他铺助方法
-
-/**
- 将json格式字符串转为字典
-
- @param jsonStr json格式字符串
- @return 转换结果字典，结果可能为nil
- */
-+ (nullable NSDictionary *)getDictFromJson:(nonnull NSString *)jsonStr;
-
-
 @end
