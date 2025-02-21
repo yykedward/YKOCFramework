@@ -4,29 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/YKFrameworkTranslation.h</key>
-		<data>
-		7CtzENlxmZoSGcYzLtPhFQdrcwY=
-		</data>
 		<key>Headers/YKOCFramework.h</key>
 		<data>
-		Xc6dYqgkQoXk8d4e+nEAmLNZj2E=
+		aRL5OcrNNVAbhd6CP6apmiWPH7U=
 		</data>
 		<key>Headers/YKOnlineConfig.h</key>
 		<data>
-		VQN7CCOuPclSyN/Dd4BBh+jUNg8=
-		</data>
-		<key>Headers/YKUserManager.h</key>
-		<data>
-		fpa9syMag7ovsi1LRFxqneIkHmY=
-		</data>
-		<key>Headers/YKUserModel.h</key>
-		<data>
-		79ngoB4tQjbh4jmMvJfr+n7FskQ=
+		Znu/+p0WtxU1YUy5+cP8Mu1Q3G0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WhqmJpUDj45/SZ396ueDEtnW2VI=
+		zk7KXpYYSpDoSaRMiDw9NBqIq3k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,59 +23,26 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/YKFrameworkTranslation.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7CtzENlxmZoSGcYzLtPhFQdrcwY=
-			</data>
-			<key>hash2</key>
-			<data>
-			H1hzNwLZspbKuW59KfXQCE//hqMQlJENJe3sxwtsr28=
-			</data>
-		</dict>
 		<key>Headers/YKOCFramework.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Xc6dYqgkQoXk8d4e+nEAmLNZj2E=
+			aRL5OcrNNVAbhd6CP6apmiWPH7U=
 			</data>
 			<key>hash2</key>
 			<data>
-			Hp65dwrqiP/9HdhZChQqlY9sogUSnZm5P5gMeOJ47CA=
+			BELWF/y24IDHqqEwF671Kfvym+ivFiQyvsQLI/9jEsk=
 			</data>
 		</dict>
 		<key>Headers/YKOnlineConfig.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VQN7CCOuPclSyN/Dd4BBh+jUNg8=
+			Znu/+p0WtxU1YUy5+cP8Mu1Q3G0=
 			</data>
 			<key>hash2</key>
 			<data>
-			I2divO8O8yUcYBqeLORjQwniLGM/555VIBWpqJV4W30=
-			</data>
-		</dict>
-		<key>Headers/YKUserManager.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fpa9syMag7ovsi1LRFxqneIkHmY=
-			</data>
-			<key>hash2</key>
-			<data>
-			nZ1yqJgCHlge+Fl9aMutNWPuKKKvWrsbPsXUnMgmxVI=
-			</data>
-		</dict>
-		<key>Headers/YKUserModel.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			79ngoB4tQjbh4jmMvJfr+n7FskQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			+6tsPc2/llU+s9k4IO3sB82XvlfG+AdXnVqT4c4QHW4=
+			9Zv61GrBeTXiEUFfv26LpMhRyti72BzECa1clTuAhx8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
