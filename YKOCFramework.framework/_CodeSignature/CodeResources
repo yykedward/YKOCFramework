@@ -25,10 +25,6 @@
 	<dict>
 		<key>Headers/YKOCFramework.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			aRL5OcrNNVAbhd6CP6apmiWPH7U=
-			</data>
 			<key>hash2</key>
 			<data>
 			BELWF/y24IDHqqEwF671Kfvym+ivFiQyvsQLI/9jEsk=
@@ -36,10 +32,6 @@
 		</dict>
 		<key>Headers/YKOnlineConfig.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Znu/+p0WtxU1YUy5+cP8Mu1Q3G0=
-			</data>
 			<key>hash2</key>
 			<data>
 			9Zv61GrBeTXiEUFfv26LpMhRyti72BzECa1clTuAhx8=
@@ -47,10 +39,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RZ83IueN0zHpl6l8HhSDgs/0Imw=
-			</data>
 			<key>hash2</key>
 			<data>
 			yqzyZrZu1+EsHQIL9rQk1CVyC6EfCD1p0YuIMHa3VB0=
