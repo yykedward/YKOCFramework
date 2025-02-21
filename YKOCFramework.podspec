@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "YKOCFramework"
-  spec.version      = "1.0.10"
+  spec.version      = "1.0.11"
   spec.summary      = "A short description of YKOCFramework."
   spec.description      = <<-DESC
                     所有内容
@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   spec.framework = 'UIKit', 'Foundation', 'CoreFoundation', 'Security'
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   
-  spec.static_framework  =  true
+  spec.static_framework  =  false
   spec.vendored_frameworks = 'YKOCFramework.framework'
 
 
