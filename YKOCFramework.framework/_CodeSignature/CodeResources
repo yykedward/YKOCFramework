@@ -6,11 +6,15 @@
 	<dict>
 		<key>Headers/YKOCFramework.h</key>
 		<data>
-		aRL5OcrNNVAbhd6CP6apmiWPH7U=
+		5z4J3rgB2CZ20oQ4qHiXl87GAOk=
 		</data>
 		<key>Headers/YKOnlineConfig.h</key>
 		<data>
-		Znu/+p0WtxU1YUy5+cP8Mu1Q3G0=
+		vDYYNc1j0q3vKRfRfDfLEDbfZdA=
+		</data>
+		<key>Headers/YKWeather.h</key>
+		<data>
+		h3E0DUso/08DJA3/WAdAsM4Uh/E=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -27,14 +31,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BELWF/y24IDHqqEwF671Kfvym+ivFiQyvsQLI/9jEsk=
+			AdlvQD/XPStdSUAxyq0ZusOx0N9gtN2vXfVNl8gQpQc=
 			</data>
 		</dict>
 		<key>Headers/YKOnlineConfig.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Zv61GrBeTXiEUFfv26LpMhRyti72BzECa1clTuAhx8=
+			e1ZyO2BfL5yb8Zl/654vtyw6RE0vsO+peqQFtiD4AYI=
+			</data>
+		</dict>
+		<key>Headers/YKWeather.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xt6fyjCdQya1BLvqRJKG8bNJEi3rm4eBQRf8E01JI+g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
