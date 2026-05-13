@@ -1,33 +1,21 @@
-//
-//  YKOnlineConfig.h
-//  YKOCFramework
-//
-//  Created by edward on 2017/5/16.
-//
-
 #import <Foundation/Foundation.h>
 
-FOUNDATION_EXTERN NSString * _Nonnull const YKOC_KEY_ONLINE_PARAMS; ///< 在线参数数据缓存
+NS_ASSUME_NONNULL_BEGIN
 
 @interface YKOnlineConfig : NSObject
 
+- (instancetype)init NS_UNAVAILABLE;
++ (instancetype)new NS_UNAVAILABLE;
 
-- (instancetype _Nonnull )init NS_UNAVAILABLE __SWIFT_UNAVAILABLE;
-+ (instancetype _Nonnull )new NS_UNAVAILABLE __SWIFT_UNAVAILABLE;
+/// 拉取在线配置（第一层 YKNetwork → 第二层 Pastebin 保底）
++ (void)updateConfigWithComplete:(nullable void (^)(BOOL success, NSDictionary * _Nullable config))complete;
 
-#pragma mark - 在线参数
+/// 获取全部配置（内存 → 磁盘 → nil）
++ (nullable NSDictionary *)allConfig;
 
-/**
- 获取在线参数缓存
- 
- @param complete 请求完成回调
- */
-+ (void)updateOnlineConfigWithComplete:(nullable void (^)(BOOL success, NSDictionary * _Nullable result))complete;
-
-/** 返回全部数据 */
-+ (nullable NSDictionary *)getConfigParams;
-
-/** 返回对应数据 */
-+ (nullable NSString *)getConfigParams:(nonnull NSString *)key;
+/// 获取单个配置值
++ (nullable NSString *)configForKey:(NSString *)key;
 
 @end
+
+NS_ASSUME_NONNULL_END
