@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "YKOCFramework"
-  spec.version      = "1.1.0"
+  spec.version      = "1.2.0"
   spec.summary      = "A short description of YKOCFramework."
   spec.description      = <<-DESC
                     所有内容
